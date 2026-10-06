@@ -12,5 +12,11 @@ public class Candidate {
     private String registrationStatus;
     private String centreAssignment;
 
+    static
+    {
+        examYear = 2026;
+        registrationFee = 200000.0;
+        gradingPocily = "Grade Scale";
+    }
 
 }
