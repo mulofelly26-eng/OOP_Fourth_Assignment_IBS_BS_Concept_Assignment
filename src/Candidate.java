@@ -28,9 +28,14 @@ public class Candidate {
     }
 
     {
+        System.out.println("============ 2. INSTANCE INITIALIZATION BLOCK ========");
         totalRegisteredCandidates++;
         this.registrationStatus = "Pending verification";
         this.centreAssignment = "Default district centre";
+        System.out.println("Total registered Candidates: " + totalRegisteredCandidates);
+        System.out.println("The registration status : " + registrationStatus );
+        System.out.println("The centre assignment : " + centreAssignment );
+        System.out.println("Instance initialization block ends here");
     }
 
 }
