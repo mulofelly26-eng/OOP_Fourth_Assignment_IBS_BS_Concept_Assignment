@@ -47,4 +47,15 @@ public class Candidate {
         System.out.println("The constructor ends here !");
     }
 
+    public void displayCandidateInfo()
+    {
+        System.out.print("Candidate Name: : " + fullName);
+        System.out.println("Index Number: " + indexNumber);
+        System.out.print(" School Name: " + SchoolName);
+        System.out.print(" Registration Status: " + registrationStatus);
+        System.out.print(" Centre Assignment : " + centreAssignment);
+        System.out.print(" Grading Pocily: " + gradingPocily);
+        System.out.print(" Exam Year: " + examYear);
+    }
+
 }
