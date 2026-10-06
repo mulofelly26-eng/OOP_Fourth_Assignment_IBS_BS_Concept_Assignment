@@ -38,10 +38,13 @@ public class Candidate {
         System.out.println("Instance initialization block ends here");
     }
     public Candidate(String indexNumber, String fullName, String SchoolName) {
+        System.out.println("=== 3. CONSTRUCTOR STARTS ===");
         this.indexNumber = indexNumber;
         this.fullName = fullName;
         this.SchoolName = SchoolName;
         this.registrationStatus = "Registration Confirmed";
+
+        System.out.println("The constructor ends here !");
     }
 
 }
