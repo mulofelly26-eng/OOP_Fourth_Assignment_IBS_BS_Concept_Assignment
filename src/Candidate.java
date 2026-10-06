@@ -37,5 +37,11 @@ public class Candidate {
         System.out.println("The centre assignment : " + centreAssignment );
         System.out.println("Instance initialization block ends here");
     }
+    public Candidate(String indexNumber, String fullName, String SchoolName) {
+        this.indexNumber = indexNumber;
+        this.fullName = fullName;
+        this.SchoolName = SchoolName;
+        this.registrationStatus = "Registration Confirmed";
+    }
 
 }
