@@ -27,4 +27,10 @@ public class Candidate {
         System.out.println(" The end of the static block");
     }
 
+    {
+        totalRegisteredCandidates++;
+        this.registrationStatus = "Pending verification";
+        this.centreAssignment = "Default district centre";
+    }
+
 }
